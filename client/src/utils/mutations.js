@@ -25,7 +25,7 @@ export const ADD_USER = gql`
 `;
 
 export const ADD_LIST = gql`
-    mutation addListInputs(
+    mutation addListInput(
         $listName: String!
         $store: String!
         $items: [itemInput]
